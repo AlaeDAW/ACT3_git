@@ -31,7 +31,7 @@ public class Comptador {
 		Scanner sc = new Scanner(System.in);
 		int xifres;
 		String numeroEntrat;
-		char car;
+		char carpe;
 		do {
 			System.out.print("Introdueix un número sencer: ");
 			numeroEntrat = sc.next();
@@ -45,8 +45,8 @@ public class Comptador {
 			--xifres;
 			System.out.println("El número tiene " + xifres + " cifras");
 			System.out.print("Continuar? ");
-			car = (char) System.in.read();
-		} while (car == 's' || car == 'S');
+			carpe = (char) System.in.read();
+		} while (carpe == 's' || carpe == 'S');
 		System.out.print("Programa finalitzat!");
 	}
 }
